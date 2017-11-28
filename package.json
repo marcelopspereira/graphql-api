@@ -1,12 +1,11 @@
 {
-  "name": "graphql-node-api",
+  "name": "graphql-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clusters": "NODE_ENV=production port=8080 node dist/clusters",
     "dev": "node_modules/.bin/nodemon --delay 5 dist/index",
-    "gulp": "node_modules/.bin/gulp",
+    "gulp": "node_modules/.bin/gulp"
   },
   "keywords": [],
   "author": "MarceloPS",
