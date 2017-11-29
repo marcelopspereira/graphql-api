@@ -16,8 +16,8 @@ const users: any[] = [
 const typeDefs = `
     type User {
         id:ID!,
-        name:string!,
-        email:string!
+        name:String!,
+        email:String!
     }
 
     type Query {
